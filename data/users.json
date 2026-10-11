@@ -1,1 +1,26 @@
-
+[
+    {
+        "id": 1,
+        "nama": "Budi Santoso",
+        "email": "budi@gmail.com",
+        "password": "$2y$10$mrUvRWasGOhLhYWN1nG9GO9TV1oxj.tUhsgIs7vjJE4M/ot1bVqUO",
+        "remember_token": null,
+        "created_at": "2026-09-14 09:15:22"
+    },
+    {
+        "id": 2,
+        "nama": "Siti Aminah",
+        "email": "siti@gmail.com",
+        "password": "$2y$10$BWrNWTvP5DG9Z28PDov5Me2Mg/Tvg0VJLntRpgOWCiZZUlFuDDd1y",
+        "remember_token": null,
+        "created_at": "2026-09-14 10:02:47"
+    },
+    {
+        "id": 3,
+        "nama": "Test User",
+        "email": "testuser@gmail.com",
+        "password": "$2y$10$N.OlBRAbkmBunZwHV4nLLOmZ3LUzjhuTz/.C.ds1oWoP/1oOWK.We",
+        "remember_token": null,
+        "created_at": "2026-09-23 15:03:13"
+    }
+]
