@@ -1,0 +1,10 @@
+# File bawaan sistem operasi
+.DS_Store
+Thumbs.db
+
+# Folder editor
+.vscode/
+.idea/
+
+# Catatan: data/users.json SENGAJA TIDAK diabaikan,
+# karena tugas meminta file contoh data ikut dikumpulkan.
