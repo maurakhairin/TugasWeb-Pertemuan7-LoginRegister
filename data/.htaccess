@@ -1,1 +1,19 @@
+# ============================================================
+# Keamanan tambahan untuk folder "data"
+# ============================================================
+# File ini mencegah orang membuka data/users.json secara
+# langsung lewat browser dengan mengetik alamatnya.
+#
+# Data tetap bisa dibaca oleh PHP dari dalam program,
+# yang diblokir hanya akses langsung dari luar.
+# ============================================================
+
+# Untuk Apache versi 2.4 ke atas (XAMPP & Laragon versi baru)
+Require all denied
+
+# Kalau muncul error 500, berarti server memakai Apache 2.2.
+# Hapus baris "Require all denied" di atas,
+# lalu hapus tanda pagar pada dua baris di bawah ini:
+# Order deny,allow
+# Deny from all
 
